@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Boo.World Image Lightbox
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.1
 // @description  boo app image lightboox modal window
 // @author       orknist
 // @match        https://boo.world/*/match

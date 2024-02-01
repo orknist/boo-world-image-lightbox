@@ -25,6 +25,7 @@
     const customStyles = `
         .featherlight .featherlight-content {
             padding: 0px;
+            border-bottom: none;
         }
     `;
     GM_addStyle(customStyles);

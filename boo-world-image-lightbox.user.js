@@ -40,10 +40,6 @@
                     if (backgroundImageUrl && backgroundImageUrl[1]) {
                         var imageUrl = backgroundImageUrl[1];
                         $currentTargetElement.attr('data-featherlight', imageUrl);
-
-                        var match = imageUrl.match(/\/([^\/]+)\/[a-zA-Z0-9]+\.[a-zA-Z]+$/);
-                        var userId = match && match[1];
-                        $currentTargetElement.attr('data-featherlight-gallery', userId);
                     }
                 });
             });
